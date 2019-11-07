@@ -1,0 +1,18 @@
+language: python
+
+python:
+  - "3.7"
+matrix:
+  include:
+    - python: 3.7
+      dist: xenial
+      sudo: true
+
+
+script:
+- pip install alive-progress
+- python test.py
+
+
+
+ # or any other command you'd like to run your tests with

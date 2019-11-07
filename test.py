@@ -11,5 +11,5 @@ with alive_bar(1000) as bar:
     for i in range(1000):
         if i%100==0:
             print('100')
-         time.sleep(0.01)
+        time.sleep(0.01)
         bar()
